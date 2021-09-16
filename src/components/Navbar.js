@@ -5,19 +5,13 @@ import '../../src/App.css'
 const Navbar = () => {
     
     return (
-        <header>
-            <div className="container">
-                <div id="branding">
-                    <h1><span className="highlight">Clarusway</span> Web Design</h1>
-                </div>
-                <nav>
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/services">Services</Link></li>
-                    </ul>
-                </nav>
-            </div>
+        <header className="navbar"> 
+             <h3 id="navbar-h3"><span className="navbar-span">Clarusway</span> Web Design</h3>
+             <ul>
+                <li><Link to="/" id="home">Home</Link></li>
+                <li><Link to="/about" className="link">About</Link></li>
+                <li><Link to="/services" className="link">Services</Link></li>
+            </ul>       
         </header>
     )
 }
