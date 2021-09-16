@@ -1,11 +1,17 @@
 import React from 'react'
+import AppRouter from './AppRouter';
+import '../src/App.css'
 
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <AppRouter/>
+    </>  
+    
+    
+
+     
   );
 }
 
